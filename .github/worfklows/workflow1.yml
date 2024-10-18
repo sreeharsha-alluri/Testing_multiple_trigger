@@ -1,0 +1,13 @@
+name: Workflow 1
+
+on:
+  push:
+    branches:
+      - main  # or any other branch you want to trigger on
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo building
+        run: echo "Building in Workflow 1"
