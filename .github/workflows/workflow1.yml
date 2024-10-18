@@ -9,5 +9,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo building
-        run: echo "Building in Workflow 1   "
+      - name: Echo building1
+        run: echo "Building in Workflow 1"
